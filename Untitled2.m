@@ -1,0 +1,1 @@
+ a1=input('nilai a1:');a2=input('nilai a2:');a3=input('nilai a3:');a4=input('nilai a4:');b1=input('nilai b1:');b2=input('nilai b2:');b3=input('nilai b3:');b4=input('nilai b4:');hasil1=[a1+a2+a3+a4],hasil2=[b1+b2+b3+b4]

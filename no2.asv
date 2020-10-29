@@ -1,0 +1,19 @@
+% n=[1 2 3 4 5];
+% 
+% filter(matrix,var1)
+% 
+% function fl = filter(matrix,var1)
+%     for i = 1:5
+%         n(1,1)
+%     end
+% end
+
+N = [10 100 1000]; 
+f(1) = 1; 
+f(2) = 1; 
+for i = 3:max(N) 
+   f(i) = f(i-1) + f(i-2); 
+end 
+for i = 1:numel(N) 
+    disp(f(N(i))) 
+end 
