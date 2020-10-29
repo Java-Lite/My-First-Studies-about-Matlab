@@ -1,9 +1,9 @@
 n=[1 2 3 4 5];
 
-saring(n,1,2)
+filter(n,1,2)
 
 
-function fl = saring(matrix,var1,var2)
+function fl = filter(matrix,var1,var2)
 for i = 1:5
   fil = matrix(1,i);
   
